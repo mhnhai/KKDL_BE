@@ -22,13 +22,13 @@ CORS(app)
 
 # Danh sách mô hình hợp lệ
 ALLOWED_MODELS = {
-    'KNN': 'models/KNN.pkl',
-    'DT': 'models/DT.pkl',
-    'SVM': 'models/SVM.pkl',
-    'RF': 'models/RF.pkl',
-    'CNB': 'models/CategoricalNB.pkl',
-    'LR': 'models/LR.pkl',
-    'MLP': 'models/MultinomialNB.pkl'
+    'KNN': 'models/knn.pkl',
+    'DT': 'models/decision_tree.pkl',
+    'SVM': 'models/svm.pkl',
+    'RF': 'models/random_forest.pkl',
+    'CNB': 'models/categorical_naive_bayes.pkl',
+    'LR': 'models/logistic.pkl',
+    'MLP': 'models/multinomial_naive_bayes.pkl'
 }
 
 # Label mappings for validation
